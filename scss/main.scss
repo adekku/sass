@@ -1,0 +1,28 @@
+$primary-color: #272727;
+$red: red;
+$font-color: white;
+$font-weights: (
+    'regular':400,
+    'medium':500,
+    'bold':600,
+);
+
+body{
+    background-color: $primary-color;
+    color: $font-color;
+
+    font-weight: map-get($font-weights, bold);
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+
+    &__paragraph{
+        text-align: center;
+
+        &:hover{
+            color: pink;
+        }
+    }
+}

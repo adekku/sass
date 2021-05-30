@@ -1,0 +1,19 @@
+body {
+  background-color: #272727;
+  color: white;
+  font-weight: 600;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.main__paragraph {
+  text-align: center;
+}
+
+.main__paragraph:hover {
+  color: pink;
+}
+/*# sourceMappingURL=main.css.map */
